@@ -17,7 +17,7 @@ class FirstView: UIView {
         super.init(frame: frame)
         self.backgroundColor = UIColor.black
        // collectedItems.style == UITableViewStyle.plain
-        collectedItems.backgroundColor = UIColor.darkGray
+        collectedItems.backgroundColor = UIColor.lightGray
         self.addSubview(collectedItems)
         collectedItems.translatesAutoresizingMaskIntoConstraints = false
         let x = NSLayoutConstraint(item: collectedItems, attribute: NSLayoutAttribute.leading, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.leading, multiplier: 1, constant: 0)
